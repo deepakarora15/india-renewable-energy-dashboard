@@ -1,0 +1,82 @@
+{
+  "totalCapacity": 47650,
+  "unit": "MW",
+  "asOf": "FY25",
+  "subcategories": {
+    "onshore": { "capacity": 47650, "share": 100 },
+    "offshore": { "capacity": 0, "share": 0, "tendersIssued": 4000 }
+  },
+  "generation": { "value": 87.9, "unit": "BU" },
+  "cuf": 21.5,
+  "target2030Onshore": 100000,
+  "target2030Offshore": 30000,
+  "tariffRange": { "min": 2.5, "max": 3.5 },
+  "annualAdditions": [
+    { "year": 2000, "added": 0.2 },
+    { "year": 2002, "added": 0.3 },
+    { "year": 2004, "added": 0.5 },
+    { "year": 2006, "added": 0.8 },
+    { "year": 2008, "added": 1.2 },
+    { "year": 2010, "added": 2.1 },
+    { "year": 2011, "added": 3.0 },
+    { "year": 2012, "added": 2.3 },
+    { "year": 2013, "added": 1.7 },
+    { "year": 2014, "added": 2.3 },
+    { "year": 2015, "added": 2.6 },
+    { "year": 2016, "added": 3.6 },
+    { "year": 2017, "added": 5.5 },
+    { "year": 2018, "added": 1.6 },
+    { "year": 2019, "added": 2.1 },
+    { "year": 2020, "added": 1.1 },
+    { "year": 2021, "added": 1.5 },
+    { "year": 2022, "added": 1.8 },
+    { "year": 2023, "added": 2.8 },
+    { "year": 2024, "added": 3.2 },
+    { "year": 2025, "added": 3.8 }
+  ],
+  "turbineEvolution": [
+    { "era": "1990s", "capacity": "250 kW", "hubHeight": 50 },
+    { "era": "2000s", "capacity": "800 kW–1.5 MW", "hubHeight": 65 },
+    { "era": "2010s", "capacity": "2–3 MW", "hubHeight": 80 },
+    { "era": "2020s", "capacity": "3–4 MW", "hubHeight": 120 },
+    { "era": "2025+", "capacity": "5–5.5 MW", "hubHeight": 160 }
+  ],
+  "repoweringOpportunity": {
+    "eligibleCapacity": 10000,
+    "oldTurbineThreshold": "< 1 MW",
+    "potentialNewCapacity": 25000,
+    "note": "10+ GW of turbines <1 MW installed before 2005 eligible for replacement"
+  },
+  "offshoreWind": {
+    "potential": "36 GW (Gujarat) + 35 GW (Tamil Nadu)",
+    "firstTenders": "4 GW off Gujarat coast",
+    "challenges": ["Marine logistics", "Port infrastructure", "Submarine cables", "Cyclone risk", "High upfront cost"]
+  },
+  "seasonalPattern": [
+    { "month": "Jan", "generation": 4.2 },
+    { "month": "Feb", "generation": 4.0 },
+    { "month": "Mar", "generation": 5.1 },
+    { "month": "Apr", "generation": 5.8 },
+    { "month": "May", "generation": 7.2 },
+    { "month": "Jun", "generation": 12.5 },
+    { "month": "Jul", "generation": 14.8 },
+    { "month": "Aug", "generation": 13.2 },
+    { "month": "Sep", "generation": 10.5 },
+    { "month": "Oct", "generation": 5.8 },
+    { "month": "Nov", "generation": 3.2 },
+    { "month": "Dec", "generation": 3.6 }
+  ],
+  "keyCorridors": [
+    { "name": "Muppandal", "state": "Tamil Nadu", "capacity": 1500 },
+    { "name": "Kutch", "state": "Gujarat", "capacity": 3500 },
+    { "name": "Jaisalmer", "state": "Rajasthan", "capacity": 4200 }
+  ],
+  "challenges": [
+    "Land fragmentation in high-wind zones",
+    "Bird and bat mortality concerns",
+    "Cyclone exposure in coastal areas",
+    "Crane availability for taller turbines",
+    "Transmission infrastructure gaps",
+    "Intermittency and grid balancing"
+  ]
+}

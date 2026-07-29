@@ -1,0 +1,14 @@
+{
+  "fy25": {
+    "solar": { "generation": 140.4, "unit": "BU", "cuf": 18.2 },
+    "wind": { "generation": 87.9, "unit": "BU", "cuf": 21.5 }
+  },
+  "historical": [
+    { "year": "FY20", "solarGen": 50.1, "windGen": 64.6 },
+    { "year": "FY21", "solarGen": 60.4, "windGen": 69.2 },
+    { "year": "FY22", "solarGen": 73.5, "windGen": 72.4 },
+    { "year": "FY23", "solarGen": 102.0, "windGen": 76.8 },
+    { "year": "FY24", "solarGen": 125.0, "windGen": 82.3 },
+    { "year": "FY25", "solarGen": 140.4, "windGen": 87.9 }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "timeline": [
+    { "year": 2010, "solar": 161, "wind": 13065 },
+    { "year": 2011, "solar": 461, "wind": 16084 },
+    { "year": 2012, "solar": 1205, "wind": 18421 },
+    { "year": 2013, "solar": 2319, "wind": 20150 },
+    { "year": 2014, "solar": 3744, "wind": 22465 },
+    { "year": 2015, "solar": 5775, "wind": 25088 },
+    { "year": 2016, "solar": 9013, "wind": 28700 },
+    { "year": 2017, "solar": 17052, "wind": 34046 },
+    { "year": 2018, "solar": 26869, "wind": 35625 },
+    { "year": 2019, "solar": 34600, "wind": 37693 },
+    { "year": 2020, "solar": 39211, "wind": 38789 },
+    { "year": 2021, "solar": 49350, "wind": 40357 },
+    { "year": 2022, "solar": 62840, "wind": 42015 },
+    { "year": 2023, "solar": 73310, "wind": 44738 },
+    { "year": 2024, "solar": 81000, "wind": 46850 },
+    { "year": 2025, "solar": 90570, "wind": 47650 }
+  ],
+  "source": "MNRE Physical Progress Reports, CEA Monthly Reports"
+}
