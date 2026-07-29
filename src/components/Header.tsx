@@ -9,14 +9,11 @@ const FILTERS: { label: string; value: EnergyFilter; icon: string }[] = [
 
 function ICICILogo() {
   return (
-    <div className="flex items-center gap-1 bg-gradient-to-r from-[#E85D04] via-[#F77F00] to-[#FCBF49] rounded-lg px-3 py-1.5 shadow-md">
-      <span className="text-white font-black text-lg italic tracking-tight" style={{ fontFamily: 'Arial, sans-serif' }}>
-        ICICI
-      </span>
-      <span className="text-white font-bold text-lg" style={{ fontFamily: 'Arial, sans-serif' }}>
-        Lombard
-      </span>
-    </div>
+    <img
+      src="/icici-lombard-logo.svg"
+      alt="ICICI Lombard General Insurance"
+      className="h-10 rounded-lg"
+    />
   );
 }
 

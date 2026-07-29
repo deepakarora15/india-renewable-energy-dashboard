@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C84B01"/>
+      <stop offset="40%" style="stop-color:#E86A10"/>
+      <stop offset="100%" style="stop-color:#F5A623"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="100" rx="12" ry="12" fill="url(#bg)"/>
+  <text x="28" y="52" font-family="Arial, sans-serif" font-size="32" font-weight="900" fill="white" font-style="italic">ICICI</text>
+  <text x="138" y="52" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="white">Lombard</text>
+  <text x="160" y="78" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="white" text-anchor="middle" letter-spacing="3">— GENERAL INSURANCE —</text>
+</svg>

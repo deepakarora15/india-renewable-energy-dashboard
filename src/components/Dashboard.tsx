@@ -56,12 +56,9 @@ export default function Dashboard() {
         <div className="max-w-[1400px] mx-auto px-4 flex items-center justify-between flex-wrap gap-2">
           <div className="flex items-center gap-3">
             <img
-              src="https://www.icicilombard.com/content/dam/icicilombard/logos/IL-logo.svg"
+              src="/icici-lombard-logo.svg"
               alt="ICICI Lombard"
-              className="h-6 bg-white rounded px-1.5 py-0.5"
-              onError={(e) => {
-                (e.target as HTMLImageElement).style.display = 'none';
-              }}
+              className="h-6 rounded"
             />
             <span className="text-xs text-yellow-300 font-semibold">For Internal Use Only</span>
           </div>
