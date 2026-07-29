@@ -38,41 +38,42 @@ export default function RiskAnalysis() {
     return (
       <div className="space-y-4">
         <h3 className="font-bold text-[#005B75]">AOG & Non-AOG Perils — Insurable Risk Register</h3>
-        <div className="overflow-x-auto">
-          <table className="w-full text-sm">
+        <div className="overflow-x-auto bg-white rounded-xl shadow-sm">
+          <table className="w-full text-sm table-fixed">
             <thead className="bg-[#F0F9FF]">
               <tr>
-                <th className="text-left py-2 px-3 text-gray-500">ID</th>
-                <th className="text-left py-2 px-3 text-gray-500">Peril</th>
-                <th className="text-left py-2 px-3 text-gray-500">Source</th>
-                <th className="text-center py-2 px-3 text-gray-500">Probability</th>
-                <th className="text-center py-2 px-3 text-gray-500">Impact</th>
-                <th className="text-right py-2 px-3 text-gray-500">EMV (₹ Cr)</th>
-                <th className="text-left py-2 px-3 text-gray-500">Mitigation</th>
+                <th className="text-left py-3 px-3 text-gray-500 w-[60px]">ID</th>
+                <th className="text-left py-3 px-3 text-gray-500 w-[140px]">Peril</th>
+                <th className="text-left py-3 px-3 text-gray-500 w-[70px]">Source</th>
+                <th className="text-center py-3 px-3 text-gray-500 w-[100px]">Probability</th>
+                <th className="text-center py-3 px-3 text-gray-500 w-[100px]">Impact</th>
+                <th className="text-right py-3 px-3 text-gray-500 w-[90px]">EMV (₹ Cr)</th>
+                <th className="text-left py-3 px-3 text-gray-500">Mitigation</th>
               </tr>
             </thead>
             <tbody>
               {allRisks.map((r: any) => (
-                <tr key={r.id} className="border-b border-gray-50">
-                  <td colSpan={7} className="p-0">
-                    <div
-                      className="flex items-center hover:bg-[#F0F9FF] cursor-pointer transition px-3 py-2"
-                      onClick={() => setExpandedRisk(expandedRisk === r.id ? null : r.id)}
-                    >
-                      <span className="w-12 font-mono text-xs">{r.id}</span>
-                      <span className="w-36 font-semibold">{r.peril}</span>
-                      <span className="w-20">
-                        <span className={`text-xs font-semibold ${r.source === 'Solar' ? 'text-[#F99D27]' : 'text-[#007A9E]'}`}>
-                          {r.source === 'Solar' ? '☀️' : '🌬️'}
-                        </span>
+                <>
+                  <tr
+                    key={r.id}
+                    className="border-b border-gray-50 hover:bg-[#F0F9FF] cursor-pointer transition"
+                    onClick={() => setExpandedRisk(expandedRisk === r.id ? null : r.id)}
+                  >
+                    <td className="py-2.5 px-3 font-mono text-xs text-gray-500">{r.id}</td>
+                    <td className="py-2.5 px-3 font-semibold">{r.peril}</td>
+                    <td className="py-2.5 px-3">
+                      <span className={`text-xs font-semibold ${r.source === 'Solar' ? 'text-[#F99D27]' : 'text-[#007A9E]'}`}>
+                        {r.source === 'Solar' ? '☀️' : '🌬️'}
                       </span>
-                      <span className="w-24 text-center"><RiskBadge level={r.probability} /></span>
-                      <span className="w-24 text-center"><RiskBadge level={r.impact} /></span>
-                      <span className="w-20 text-right font-bold text-red-600">₹{r.emv}</span>
-                      <span className="flex-1 text-xs text-gray-600 pl-3 truncate">{r.mitigation}</span>
-                    </div>
-                    {expandedRisk === r.id && (
-                      <div className="bg-blue-50 px-6 py-4 text-sm text-gray-700 animate-fadeIn border-t border-gray-100">
+                    </td>
+                    <td className="py-2.5 px-3 text-center"><RiskBadge level={r.probability} /></td>
+                    <td className="py-2.5 px-3 text-center"><RiskBadge level={r.impact} /></td>
+                    <td className="py-2.5 px-3 text-right font-bold text-red-600">₹{r.emv}</td>
+                    <td className="py-2.5 px-3 text-xs text-gray-600 truncate">{r.mitigation}</td>
+                  </tr>
+                  {expandedRisk === r.id && (
+                    <tr key={`exp-${r.id}`}>
+                      <td colSpan={7} className="bg-blue-50 px-6 py-4 text-sm text-gray-700 animate-fadeIn border-t border-gray-100">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                           <div>
                             <p className="font-semibold text-[#005B75] text-xs mb-1">Risk Details</p>
@@ -83,10 +84,10 @@ export default function RiskAnalysis() {
                             <p>{r.mitigation}</p>
                           </div>
                         </div>
-                      </div>
-                    )}
-                  </td>
-                </tr>
+                      </td>
+                    </tr>
+                  )}
+                </>
               ))}
             </tbody>
           </table>
