@@ -7,6 +7,19 @@ const FILTERS: { label: string; value: EnergyFilter; icon: string }[] = [
   { label: 'All RE', value: 'all', icon: '⚡' },
 ];
 
+function ICICILogo() {
+  return (
+    <div className="flex items-center gap-1 bg-gradient-to-r from-[#E85D04] via-[#F77F00] to-[#FCBF49] rounded-lg px-3 py-1.5 shadow-md">
+      <span className="text-white font-black text-lg italic tracking-tight" style={{ fontFamily: 'Arial, sans-serif' }}>
+        ICICI
+      </span>
+      <span className="text-white font-bold text-lg" style={{ fontFamily: 'Arial, sans-serif' }}>
+        Lombard
+      </span>
+    </div>
+  );
+}
+
 export default function Header() {
   const { user, filter, setFilter, setUser } = useAppStore();
 
@@ -16,14 +29,7 @@ export default function Header() {
       <header className="bg-gradient-to-r from-[#005B75] to-[#003D50] text-white">
         <div className="max-w-[1400px] mx-auto px-4 py-3 flex items-center justify-between flex-wrap gap-3">
           <div className="flex items-center gap-3">
-            <img
-              src="https://www.icicilombard.com/content/dam/icicilombard/logos/IL-logo.svg"
-              alt="ICICI Lombard"
-              className="h-8 bg-white rounded px-1 py-0.5"
-              onError={(e) => {
-                (e.target as HTMLImageElement).style.display = 'none';
-              }}
-            />
+            <ICICILogo />
             <div>
               <h1 className="text-xl font-bold leading-tight">India Renewable Energy Dashboard</h1>
               <p className="text-xs text-blue-200">Solar & Wind Sector Analysis • FY2025</p>
