@@ -12,7 +12,7 @@ export default function Login() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#005B75] to-[#003D50] p-4">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-[#005B75] to-[#003D50] p-4">
       <div className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-md animate-fadeIn">
         <div className="text-center mb-8">
           <img
@@ -48,6 +48,20 @@ export default function Login() {
             Enter Dashboard
           </button>
         </form>
+      </div>
+
+      {/* Disclaimer */}
+      <div className="mt-6 max-w-lg text-center">
+        <p className="text-xs text-blue-200 font-semibold mb-1">Internal & Confidentiality Notice</p>
+        <p className="text-[11px] text-blue-100/80 leading-relaxed">
+          This portal and its contents are intended solely for internal use by authorized personnel. 
+          The information provided herein is compiled from third-party and public external sources for 
+          informational and analytical purposes only. While reasonable efforts are made to ensure accuracy, 
+          ICICI Lombard makes no representations or warranties regarding the completeness, reliability, or 
+          accuracy of the data. By logging in, you acknowledge that this information should not be solely 
+          relied upon for legal, commercial, or financial decisions, and you agree not to distribute or 
+          circulate any content externally without prior written authorization.
+        </p>
       </div>
     </div>
   );

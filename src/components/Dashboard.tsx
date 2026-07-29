@@ -63,10 +63,10 @@ export default function Dashboard() {
                 (e.target as HTMLImageElement).style.display = 'none';
               }}
             />
-            <span className="text-xs text-blue-200">ICICI Lombard General Insurance Company Ltd</span>
+            <span className="text-xs text-yellow-300 font-semibold">For Internal Use Only</span>
           </div>
           <div className="text-xs text-blue-200">
-            Project by <span className="font-bold text-white">Deepak Arora</span>
+            Project by <span className="font-bold text-white">Deepak Arora</span> • ICICI Lombard GIC Ltd
           </div>
         </div>
       </footer>
