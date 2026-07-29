@@ -52,19 +52,11 @@ export default function Dashboard() {
         <ActiveComponent />
       </main>
       {/* Footer Ribbon — Always visible, fixed at bottom */}
-      <footer className="fixed bottom-0 left-0 right-0 bg-gradient-to-r from-[#005B75] to-[#003D50] text-white py-2.5 z-50 shadow-[0_-2px_10px_rgba(0,0,0,0.15)] no-print">
-        <div className="max-w-[1400px] mx-auto px-4 flex items-center justify-between flex-wrap gap-2">
-          <div className="flex items-center gap-3">
-            <img
-              src="/icici-lombard-logo.jpg"
-              alt="ICICI Lombard"
-              className="h-6 rounded"
-            />
-            <span className="text-xs text-yellow-300 font-semibold">For Internal Use Only</span>
-          </div>
-          <div className="text-xs text-blue-200">
-            Project by <span className="font-bold text-white">Deepak Arora</span> • ICICI Lombard GIC Ltd
-          </div>
+      <footer className="fixed bottom-0 left-0 right-0 bg-[#1E3A4F] text-white py-2 z-50 shadow-[0_-2px_10px_rgba(0,0,0,0.15)] no-print border-t border-gray-600">
+        <div className="max-w-[1400px] mx-auto px-4 flex items-center justify-between">
+          <span className="text-xs text-gray-300">ICICI Lombard General Insurance Company Ltd.</span>
+          <span className="text-xs text-yellow-400 font-semibold">For Internal Use Only</span>
+          <span className="text-xs text-gray-300">Designed by <span className="text-white font-semibold">Deepak Arora</span></span>
         </div>
       </footer>
     </div>
