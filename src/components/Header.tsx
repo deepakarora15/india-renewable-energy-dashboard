@@ -12,7 +12,7 @@ function ICICILogo() {
     <img
       src="/icici-lombard-logo.svg"
       alt="ICICI Lombard General Insurance"
-      className="h-10 rounded-lg"
+      className="h-11 rounded-lg"
     />
   );
 }
