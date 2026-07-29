@@ -16,9 +16,9 @@ export default function Login() {
       <div className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-md animate-fadeIn">
         <div className="text-center mb-8">
           <img
-            src="/icici-lombard-logo.svg"
+            src="/icici-lombard-logo.jpg"
             alt="ICICI Lombard"
-            className="h-12 mx-auto mb-4"
+            className="h-12 mx-auto mb-4 rounded-lg"
           />
           <div className="text-5xl mb-3">⚡</div>
           <h1 className="text-2xl font-bold text-[#005B75]">India Renewable Energy</h1>

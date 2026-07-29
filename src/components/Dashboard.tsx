@@ -56,7 +56,7 @@ export default function Dashboard() {
         <div className="max-w-[1400px] mx-auto px-4 flex items-center justify-between flex-wrap gap-2">
           <div className="flex items-center gap-3">
             <img
-              src="/icici-lombard-logo.svg"
+              src="/icici-lombard-logo.jpg"
               alt="ICICI Lombard"
               className="h-6 rounded"
             />
