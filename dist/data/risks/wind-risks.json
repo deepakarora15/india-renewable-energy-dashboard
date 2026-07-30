@@ -1,0 +1,35 @@
+{
+  "insurableRisks": {
+    "aogPerils": [
+      { "id": "WR1", "peril": "Cyclone", "probability": "Medium", "impact": "Very High", "emv": 180, "unit": "₹ Cr", "mitigation": "Cyclone-rated towers (IEC Class I), nacelle yaw-to-wind strategy, blade feathering", "details": "Wind turbines in Gujarat/AP/Odisha coast face cyclone gusts >200 km/h; tower collapse risk" },
+      { "id": "WR2", "peril": "Lightning", "probability": "High", "impact": "Medium", "emv": 35, "unit": "₹ Cr", "mitigation": "LPS receptor system on blades, down-conductor to earthing, SPD on all circuits", "details": "Blade tip receptors most vulnerable; lightning causes blade delamination and control system damage" },
+      { "id": "WR3", "peril": "Earthquake", "probability": "Low", "impact": "High", "emv": 40, "unit": "₹ Cr", "mitigation": "Seismic-rated foundation design, structural health monitoring sensors", "details": "Foundation cracking, tower tilt, nacelle misalignment in seismic zones (Gujarat, NE India)" }
+    ],
+    "nonAogPerils": [
+      { "id": "WR4", "peril": "Blade Failure", "probability": "Medium", "impact": "High", "emv": 65, "unit": "₹ Cr", "mitigation": "CMS blade monitoring, regular visual/drone inspection, leading edge protection", "details": "Leading edge erosion, root crack, lightning damage causing blade throw or structural failure" },
+      { "id": "WR5", "peril": "Gearbox Failure", "probability": "Medium", "impact": "Very High", "emv": 90, "unit": "₹ Cr", "mitigation": "Oil analysis (quarterly), vibration monitoring, CMS alarm thresholds", "details": "Bearing failures, gear tooth damage; 6-12 month lead time for replacement; crane costs ₹50L/day" },
+      { "id": "WR6", "peril": "Generator Failure", "probability": "Low", "impact": "High", "emv": 45, "unit": "₹ Cr", "mitigation": "Winding temperature monitoring, partial discharge testing, insulation resistance checks", "details": "Winding insulation failure, bearing damage in DFIG generators" },
+      { "id": "WR7", "peril": "Tower Fatigue", "probability": "Low", "impact": "Very High", "emv": 120, "unit": "₹ Cr", "mitigation": "Structural health monitoring, bolt torque checks, foundation inspection", "details": "Fatigue cracks at welded joints; critical risk in repowered sites with upgraded turbines on existing foundations" },
+      { "id": "WR8", "peril": "Transformer Failure", "probability": "Medium", "impact": "Medium", "emv": 25, "unit": "₹ Cr", "mitigation": "DGA analysis, thermal imaging, backup transformer strategy", "details": "Wind farm pooling transformers handle variable load cycles; insulation aging accelerated" }
+    ]
+  },
+  "emergingRisks": [
+    { "risk": "Offshore Marine Corrosion", "category": "Offshore", "severity": "High", "description": "Salt spray, marine growth, and splash zone corrosion on monopile/jacket foundations", "insurance": "Marine cover with corrosion warranty extension" },
+    { "risk": "Blade Erosion (Leading Edge)", "category": "Operations", "severity": "Medium", "description": "Rain, sand, and insect erosion on blade leading edge reducing aerodynamic efficiency by 5-25%", "insurance": "Extended warranty cover, LEP (Leading Edge Protection) maintenance contracts" },
+    { "risk": "Tower Fatigue at Repowered Sites", "category": "Structural", "severity": "High", "description": "New larger rotors on existing towers/foundations may exceed design load envelope", "insurance": "Structural assessment condition precedent; enhanced MLOP cover" },
+    { "risk": "Digital Twin Failures", "category": "Technology", "severity": "Medium", "description": "Over-reliance on digital twin predictions leading to missed maintenance; cyber vulnerability", "insurance": "Cyber cover extension, professional indemnity for service providers" }
+  ],
+  "bestPractices": [
+    { "practice": "Condition Monitoring System (CMS)", "frequency": "Continuous", "benefit": "Early detection of drivetrain faults; 3-6 month warning before catastrophic failure" },
+    { "practice": "Lightning Protection Upgrade", "frequency": "Every 5 years", "benefit": "Modern LPS receptors reduce blade lightning damage by 80%" },
+    { "practice": "Blade Inspection (Drone/Rope)", "frequency": "Annual", "benefit": "Detect leading edge erosion, cracks, delamination before structural failure" },
+    { "practice": "Structural Health Monitoring", "frequency": "Continuous", "benefit": "Tower and foundation strain gauges detect fatigue progression; critical for repowered sites" }
+  ],
+  "caseStudies": [
+    { "title": "Cyclone Tauktae — Gujarat Wind Farms", "date": "May 2021", "loss": 180, "unit": "₹ Cr", "description": "Category 4 cyclone with gusts >185 km/h damaged 50+ turbines in Kutch region. Tower collapses, blade throws, nacelle fires. Largest single wind claim in India.", "learning": "Cyclone-rated Class IA turbines essential for Gujarat coast; yaw-to-wind strategy must be tested annually" },
+    { "title": "Gearbox Serial Defect — Tamil Nadu", "date": "Mar 2022", "loss": 90, "unit": "₹ Cr", "description": "Design defect in planetary stage affected 120 turbines from single OEM. Required full gearbox replacement; crane mobilization took 4 months.", "learning": "Diversified OEM portfolio; CMS mandatory for early detection; crane contracts pre-arranged" },
+    { "title": "Tamil Nadu Lightning — 200 MW Farm", "date": "Jun 2023", "loss": 28, "unit": "₹ Cr", "description": "Monsoon lightning strikes damaged blade tips on 35 turbines. Control systems and SCADA also affected.", "learning": "Annual LPS inspection; blade receptor continuity testing; comprehensive SPD installation" },
+    { "title": "Blade Throw Incident — Rajasthan", "date": "Nov 2023", "loss": 12, "unit": "₹ Cr", "description": "Blade root bolt failure caused blade throw; secondary damage to adjacent turbine and access road.", "learning": "Bolt torque verification during annual maintenance; ultrasonic bolt testing for aging turbines" },
+    { "title": "Foundation Crack — Repowered Site, Maharashtra", "date": "Aug 2024", "loss": 25, "unit": "₹ Cr", "description": "Foundation designed for 600 kW turbine showed cracks after 2.1 MW repowered turbine installed. Tower tilt detected by SHM.", "learning": "Mandatory structural assessment for repowering; foundation load envelope verification before re-commissioning" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "sources": [
+    { "name": "MNRE", "fullName": "Ministry of New & Renewable Energy", "url": "https://mnre.gov.in", "dataType": "Physical Progress, Policy Documents" },
+    { "name": "CEA", "fullName": "Central Electricity Authority", "url": "https://cea.nic.in", "dataType": "Monthly Generation Reports, Installed Capacity" },
+    { "name": "SECI", "fullName": "Solar Energy Corporation of India", "url": "https://seci.co.in", "dataType": "Tender Results, Tariff Data" },
+    { "name": "NIWE", "fullName": "National Institute of Wind Energy", "url": "https://niwe.res.in", "dataType": "Wind Resource Assessment, Atlas" },
+    { "name": "NISE", "fullName": "National Institute of Solar Energy", "url": "https://nise.res.in", "dataType": "Solar Radiation Data, Testing" },
+    { "name": "Company Reports", "fullName": "Annual Reports & BSE/NSE Filings", "url": "", "dataType": "Capacity, Revenue, Pipeline" }
+  ],
+  "disclaimer": "Data compiled from publicly available government sources. Figures are approximate and subject to quarterly updates.",
+  "lastUpdated": "March 2025"
+}

@@ -1,0 +1,69 @@
+{
+  "players": [
+    { "rank": 1, "name": "Adani Green Energy", "totalRE": 20000, "solar": 14000, "wind": 6000, "share": 14.5, "listed": true, "ownership": "Private", "category": "IPP", "target2030": 45000, "recentProject": "Khavda 30 GW Hybrid Park, Gujarat" },
+    { "rank": 2, "name": "ReNew Energy", "totalRE": 11000, "solar": 6500, "wind": 4500, "share": 8.0, "listed": true, "ownership": "Private", "category": "IPP", "target2030": 18000, "recentProject": "500 MW Wind Farm, Kutch" },
+    { "rank": 3, "name": "Greenko Group", "totalRE": 9200, "solar": 4500, "wind": 4700, "share": 6.7, "listed": false, "ownership": "Private", "category": "IPP", "target2030": 15000, "recentProject": "Integrated RE Storage, Andhra Pradesh" },
+    { "rank": 4, "name": "Tata Power Renewable", "totalRE": 6700, "solar": 4200, "wind": 2500, "share": 4.8, "listed": true, "ownership": "Private", "category": "IPP", "target2030": 20000, "recentProject": "2 GW Solar Manufacturing, Tamil Nadu" },
+    { "rank": 5, "name": "JSW Energy", "totalRE": 5800, "solar": 3200, "wind": 2600, "share": 4.2, "listed": true, "ownership": "Private", "category": "IPP", "target2030": 20000, "recentProject": "1.3 GW Wind Project, Karnataka" },
+    { "rank": 6, "name": "NTPC Renewable (NTPC REL)", "totalRE": 5200, "solar": 3800, "wind": 1400, "share": 3.8, "listed": true, "ownership": "PSU-Central", "category": "IPP", "target2030": 60000, "recentProject": "NTPC REL IPO & 4.7 GW under construction" },
+    { "rank": 7, "name": "Sembcorp Energy India", "totalRE": 4800, "solar": 2900, "wind": 1900, "share": 3.5, "listed": false, "ownership": "Private-Foreign", "category": "IPP", "target2030": 10000, "recentProject": "600 MW Solar, Rajasthan" },
+    { "rank": 8, "name": "Avaada Energy", "totalRE": 4500, "solar": 4500, "wind": 0, "share": 3.3, "listed": false, "ownership": "Private", "category": "IPP", "target2030": 11000, "recentProject": "1 GW Solar Park, Rajasthan" },
+    { "rank": 9, "name": "Azure Power", "totalRE": 4200, "solar": 4200, "wind": 0, "share": 3.0, "listed": true, "ownership": "Private", "category": "IPP", "target2030": 8000, "recentProject": "600 MW Rajasthan Solar" },
+    { "rank": 10, "name": "Hero Future Energies", "totalRE": 3800, "solar": 2200, "wind": 1600, "share": 2.8, "listed": false, "ownership": "Private", "category": "IPP", "target2030": 8000, "recentProject": "400 MW Hybrid, Andhra Pradesh" },
+    { "rank": 11, "name": "Suzlon Energy", "totalRE": 3500, "solar": 0, "wind": 3500, "share": 2.5, "listed": true, "ownership": "Private", "category": "IPP", "target2030": 6000, "recentProject": "3 MW S144 Turbine Launch" },
+    { "rank": 12, "name": "Inox Wind", "totalRE": 2800, "solar": 0, "wind": 2800, "share": 2.0, "listed": true, "ownership": "Private", "category": "IPP", "target2030": 5000, "recentProject": "3.3 MW Turbine Platform" },
+    { "rank": 13, "name": "O2 Power", "totalRE": 2500, "solar": 1800, "wind": 700, "share": 1.8, "listed": false, "ownership": "Private", "category": "IPP", "target2030": 10000, "recentProject": "500 MW Solar, Madhya Pradesh" },
+    { "rank": 14, "name": "Vibrant Energy", "totalRE": 2200, "solar": 1400, "wind": 800, "share": 1.6, "listed": false, "ownership": "Private", "category": "IPP", "target2030": 6000, "recentProject": "350 MW Wind, Tamil Nadu" },
+    { "rank": 15, "name": "Sprng Energy", "totalRE": 2000, "solar": 1200, "wind": 800, "share": 1.4, "listed": false, "ownership": "Private", "category": "IPP", "target2030": 5000, "recentProject": "300 MW Solar, Karnataka" },
+    { "rank": 16, "name": "CleanMax", "totalRE": 1200, "solar": 1000, "wind": 200, "share": 0.9, "listed": false, "ownership": "Private", "category": "IPP", "target2030": 3000, "recentProject": "C&I Rooftop Solar Portfolio" },
+    { "rank": 17, "name": "SJVN Renewable", "totalRE": 1800, "solar": 1200, "wind": 600, "share": 1.3, "listed": true, "ownership": "PSU-Central", "category": "IPP", "target2030": 25000, "recentProject": "1 GW Solar, Rajasthan" },
+    { "rank": 18, "name": "NHPC Renewable", "totalRE": 1500, "solar": 1100, "wind": 400, "share": 1.1, "listed": true, "ownership": "PSU-Central", "category": "IPP", "target2030": 10000, "recentProject": "800 MW Solar Pipeline" },
+    { "rank": 19, "name": "Torrent Power RE", "totalRE": 1300, "solar": 900, "wind": 400, "share": 0.9, "listed": true, "ownership": "Private", "category": "IPP", "target2030": 5000, "recentProject": "300 MW Solar, Gujarat" },
+    { "rank": 20, "name": "Ayana Renewable", "totalRE": 1100, "solar": 700, "wind": 400, "share": 0.8, "listed": false, "ownership": "Private-Foreign", "category": "IPP", "target2030": 4000, "recentProject": "200 MW Wind, Andhra Pradesh" },
+    { "rank": 21, "name": "Acme Solar", "totalRE": 3200, "solar": 3200, "wind": 0, "share": 2.3, "listed": false, "ownership": "Private", "category": "IPP", "target2030": 8000, "recentProject": "Green Hydrogen + Solar, Rajasthan" },
+    { "rank": 22, "name": "Engie India", "totalRE": 1500, "solar": 900, "wind": 600, "share": 1.1, "listed": false, "ownership": "Private-Foreign", "category": "IPP", "target2030": 4000, "recentProject": "350 MW Solar, Karnataka" },
+    { "rank": 23, "name": "Vena Energy (India)", "totalRE": 1800, "solar": 1200, "wind": 600, "share": 1.3, "listed": false, "ownership": "Private-Foreign", "category": "IPP", "target2030": 5000, "recentProject": "400 MW Solar, Rajasthan" },
+    { "rank": 24, "name": "KPI Green Energy", "totalRE": 1000, "solar": 1000, "wind": 0, "share": 0.7, "listed": true, "ownership": "Private", "category": "IPP", "target2030": 3000, "recentProject": "C&I Solar Gujarat" },
+    { "rank": 25, "name": "Fourth Partner Energy", "totalRE": 900, "solar": 850, "wind": 50, "share": 0.7, "listed": false, "ownership": "Private", "category": "IPP", "target2030": 2500, "recentProject": "C&I Rooftop Solar Pan-India" },
+    { "rank": 26, "name": "Amp Energy India", "totalRE": 800, "solar": 700, "wind": 100, "share": 0.6, "listed": false, "ownership": "Private-Foreign", "category": "IPP", "target2030": 3000, "recentProject": "200 MW Open Access Solar" },
+    { "rank": 27, "name": "Eden Renewables", "totalRE": 700, "solar": 700, "wind": 0, "share": 0.5, "listed": false, "ownership": "Private-Foreign", "category": "IPP", "target2030": 2000, "recentProject": "250 MW Solar, Rajasthan" },
+    { "rank": 28, "name": "Juniper Green Energy", "totalRE": 600, "solar": 400, "wind": 200, "share": 0.4, "listed": false, "ownership": "Private", "category": "IPP", "target2030": 2000, "recentProject": "Hybrid Projects, MP & RJ" },
+    { "rank": 29, "name": "Mahindra Susten", "totalRE": 1600, "solar": 1400, "wind": 200, "share": 1.2, "listed": false, "ownership": "Private", "category": "IPP", "target2030": 4000, "recentProject": "EPC + Own portfolio solar" },
+    { "rank": 30, "name": "Waaree Renewable", "totalRE": 500, "solar": 500, "wind": 0, "share": 0.4, "listed": true, "ownership": "Private", "category": "IPP", "target2030": 3000, "recentProject": "IPP arm of Waaree Energies" }
+  ],
+  "manufacturers": {
+    "solar": [
+      { "name": "Adani Solar (Mundra)", "type": "Cell + Module", "capacity": "10 GW Module / 4 GW Cell", "technology": "Mono-PERC, TOPCon, Bifacial", "listed": true, "ownership": "Private", "note": "India's largest integrated solar manufacturer" },
+      { "name": "Waaree Energies", "type": "Module + Cell", "capacity": "12 GW Module / 5.4 GW Cell", "technology": "Mono-PERC, TOPCon, Bifacial", "listed": true, "ownership": "Private", "note": "Largest module manufacturer by volume, PLI beneficiary" },
+      { "name": "Tata Power Solar (TPSSL)", "type": "Cell + Module + EPC", "capacity": "4.3 GW Module / 2 GW Cell", "technology": "Mono-PERC, TOPCon", "listed": true, "ownership": "Private", "note": "Pioneer since 1989, vertically integrated" },
+      { "name": "Vikram Solar", "type": "Module", "capacity": "3.5 GW Module", "technology": "Mono-PERC, Bifacial, TOPCon", "listed": false, "ownership": "Private", "note": "PLI beneficiary, expanding into cell manufacturing" },
+      { "name": "Goldi Solar", "type": "Module", "capacity": "3.5 GW Module", "technology": "Mono-PERC, Bifacial", "listed": false, "ownership": "Private", "note": "Gujarat-based, rapid capacity expansion" },
+      { "name": "Premier Energies", "type": "Cell + Module", "capacity": "4 GW Cell / 4 GW Module", "technology": "Mono-PERC, TOPCon, HJT", "listed": true, "ownership": "Private", "note": "IPO 2024, strong order book" },
+      { "name": "Emmvee Photovoltaic", "type": "Module", "capacity": "2 GW Module", "technology": "Mono-PERC", "listed": false, "ownership": "Private", "note": "Karnataka-based, export market focus" },
+      { "name": "Risen Energy (India)", "type": "Module", "capacity": "2 GW Module", "technology": "HJT, TOPCon", "listed": false, "ownership": "Private-Foreign", "note": "Chinese company with India manufacturing" },
+      { "name": "Saatvik Green Energy", "type": "Module", "capacity": "2.5 GW Module", "technology": "Mono-PERC, Bifacial", "listed": false, "ownership": "Private", "note": "Focus on rooftop segment" },
+      { "name": "RenewSys", "type": "Module + Encapsulant + Backsheet", "capacity": "3 GW Module", "technology": "Mono-PERC, Bifacial", "listed": false, "ownership": "Private", "note": "Integrated BOS manufacturer, exports to 50+ countries" },
+      { "name": "Avaada Energy (Mfg Arm)", "type": "Cell + Module", "capacity": "4 GW Module / 4 GW Cell", "technology": "TOPCon", "listed": false, "ownership": "Private", "note": "Backward integration PLI plant at Dharmapuri" },
+      { "name": "Jupiter Solar (Reliance)", "type": "Cell + Module + Ingot-Wafer", "capacity": "10 GW (planned)", "technology": "HJT", "listed": true, "ownership": "Private", "note": "Reliance New Energy Solar, giga-factory at Jamnagar" }
+    ],
+    "wind": [
+      { "name": "Suzlon Energy", "type": "WTG OEM", "capacity": "20 GW+ installed globally", "technology": "S144 (3 MW), S120 (2.6 MW)", "listed": true, "ownership": "Private", "note": "India's largest wind OEM, 20 GW installed base" },
+      { "name": "Inox Wind", "type": "WTG OEM", "capacity": "4 GW+ installed", "technology": "DF 113/93 (2-3.3 MW)", "listed": true, "ownership": "Private", "note": "Integrated WTG manufacturer, strong order book 3 GW+" },
+      { "name": "Siemens Gamesa (India)", "type": "WTG OEM", "capacity": "8 GW+ installed", "technology": "SG 3.4-145, SG 5.0-170 (offshore)", "listed": false, "ownership": "Private-Foreign", "note": "Global leader, India nacelle manufacturing hub" },
+      { "name": "Vestas (India)", "type": "WTG OEM", "capacity": "5 GW+ installed", "technology": "V150-4.2 MW, V162-6.2 MW", "listed": false, "ownership": "Private-Foreign", "note": "Chennai blade factory, EnVentus platform for India" },
+      { "name": "GE Vernova Wind (India)", "type": "WTG OEM", "capacity": "3 GW+ installed", "technology": "2.7-132, Cypress 5.x", "listed": false, "ownership": "Private-Foreign", "note": "Pune technology center, multi-MW platforms" },
+      { "name": "Envision Energy (India)", "type": "WTG OEM", "capacity": "1 GW+ installed", "technology": "EN-156/4.5 MW", "listed": false, "ownership": "Private-Foreign", "note": "Chinese WTG maker entering Indian market" },
+      { "name": "Windworld India", "type": "WTG OEM", "capacity": "2 GW installed", "technology": "WW-100 (2 MW), WW-120", "listed": true, "ownership": "Private", "note": "Formerly Wind World India, revival underway" },
+      { "name": "LM Wind Power (India)", "type": "Blade Manufacturer", "capacity": "Blades for 5 GW/year", "technology": "Up to 107m blades", "listed": false, "ownership": "Private-Foreign", "note": "GE subsidiary, Halol & Dabaspet blade plants" },
+      { "name": "TPI Composites (India)", "type": "Blade Manufacturer", "capacity": "3,000 blades/year", "technology": "Multi-platform", "listed": false, "ownership": "Private-Foreign", "note": "Independent blade supplier for multiple OEMs" },
+      { "name": "Triveni Turbines (Wind)", "type": "Component Supplier", "capacity": "Gearboxes/Generators", "technology": "Drive-train components", "listed": true, "ownership": "Private", "note": "Diversifying from steam to wind components" }
+    ]
+  },
+  "nationalSummary": {
+    "asOf": "Jun 2026",
+    "solarInstalled": 162000,
+    "windInstalled": 57400,
+    "totalRE": 219400,
+    "source": "MNRE Physical Progress (mnre.gov.in)"
+  }
+}
