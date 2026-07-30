@@ -1,22 +1,18 @@
 import { useState } from 'react';
 import { useAppStore } from '../store';
 
-const CREDS: Record<string, { password: string; role: 'admin' | 'user' }> = {
-  DeepakArora: { password: 'deepak123', role: 'admin' },
-  CSG2: { password: 'csg123', role: 'user' },
-};
-
 export default function Login() {
-  const setUser = useAppStore((s) => s.setUser);
+  const { setUser, managedUsers, addLoginLog } = useAppStore();
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    const cred = CREDS[username];
-    if (cred && cred.password === password) {
-      setUser({ username, role: cred.role });
+    const user = managedUsers.find((u) => u.username === username && u.password === password);
+    if (user) {
+      setUser({ username: user.username, role: user.role });
+      addLoginLog({ username: user.username, role: user.role, timestamp: new Date().toISOString(), action: 'login' });
     } else {
       setError('Invalid credentials. Please try again.');
     }

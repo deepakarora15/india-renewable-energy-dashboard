@@ -18,7 +18,7 @@ function ICICILogo() {
 }
 
 export default function Header() {
-  const { user, filter, setFilter, setUser } = useAppStore();
+  const { user, filter, setFilter, setUser, addLoginLog } = useAppStore();
 
   return (
     <div className="no-print">
@@ -53,7 +53,10 @@ export default function Header() {
                 {user?.role === 'admin' ? '👑' : '👤'} {user?.username}
               </span>
               <button
-                onClick={() => setUser(null)}
+                onClick={() => {
+                  if (user) addLoginLog({ username: user.username, role: user.role, timestamp: new Date().toISOString(), action: 'logout' });
+                  setUser(null);
+                }}
                 className="text-sm bg-red-500/80 hover:bg-red-500 px-3 py-1 rounded-full transition"
               >
                 Logout

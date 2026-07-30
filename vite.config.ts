@@ -4,5 +4,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/india-renewable-energy-dashboard/',
+  base: process.env.NODE_ENV === 'production' ? '/india-renewable-energy-dashboard/' : '/',
 })

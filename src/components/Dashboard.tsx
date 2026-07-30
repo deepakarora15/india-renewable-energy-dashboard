@@ -9,6 +9,7 @@ import Geography from './tabs/Geography';
 import RiskAnalysis from './tabs/RiskAnalysis';
 import News from './tabs/News';
 import REQuiz from './tabs/REQuiz';
+import AuditLogs from './tabs/AuditLogs';
 
 const TABS = [
   { label: '🏭 Overview', component: IndustryOverview },
@@ -20,11 +21,15 @@ const TABS = [
   { label: '🛡️ Risk', component: RiskAnalysis },
   { label: '📰 News', component: News },
   { label: '🎮 Quiz', component: REQuiz },
+  { label: '🔐 Audit Logs', component: AuditLogs, adminOnly: true },
 ];
 
 export default function Dashboard() {
-  const { activeTab, setActiveTab } = useAppStore();
-  const visibleTabs = TABS;
+  const { activeTab, setActiveTab, user } = useAppStore();
+  const visibleTabs = TABS.filter((t) => {
+    if ((t as any).adminOnly && user?.role !== 'admin') return false;
+    return true;
+  });
 
   const ActiveComponent = visibleTabs[activeTab]?.component || IndustryOverview;
 
