@@ -1,14 +1,25 @@
 import { useState } from 'react';
 import { useAppStore } from '../store';
 
+const CREDS: Record<string, { password: string; role: 'admin' | 'user' }> = {
+  DeepakArora: { password: 'deepak123', role: 'admin' },
+  CSG2: { password: 'csg123', role: 'user' },
+};
+
 export default function Login() {
   const setUser = useAppStore((s) => s.setUser);
-  const [name, setName] = useState('');
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
 
-  const handleEnter = (e: React.FormEvent) => {
+  const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!name.trim()) return;
-    setUser({ username: name.trim(), role: 'admin' });
+    const cred = CREDS[username];
+    if (cred && cred.password === password) {
+      setUser({ username, role: cred.role });
+    } else {
+      setError('Invalid credentials. Please try again.');
+    }
   };
 
   return (
@@ -25,24 +36,35 @@ export default function Login() {
           <p className="text-sm text-gray-500 mt-1">Solar & Wind Sector Dashboard</p>
           <p className="text-xs text-gray-400 mt-1">ICICI Lombard GIC Ltd</p>
         </div>
-        <form onSubmit={handleEnter} className="space-y-4">
+        <form onSubmit={handleLogin} className="space-y-4">
           <div>
-            <label className="block text-sm font-semibold text-gray-700 mb-1">Enter Your Name</label>
+            <label className="block text-sm font-semibold text-gray-700 mb-1">Username</label>
             <input
               type="text"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
+              value={username}
+              onChange={(e) => { setUsername(e.target.value); setError(''); }}
               className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#005B75] text-base"
-              placeholder="Your name"
+              placeholder="Enter username"
               autoFocus
             />
           </div>
+          <div>
+            <label className="block text-sm font-semibold text-gray-700 mb-1">Password</label>
+            <input
+              type="password"
+              value={password}
+              onChange={(e) => { setPassword(e.target.value); setError(''); }}
+              className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#005B75] text-base"
+              placeholder="Enter password"
+            />
+          </div>
+          {error && <p className="text-red-500 text-sm">{error}</p>}
           <button
             type="submit"
-            disabled={!name.trim()}
+            disabled={!username.trim() || !password.trim()}
             className="w-full py-3 bg-gradient-to-r from-[#005B75] to-[#007A9E] text-white font-bold rounded-xl hover:opacity-90 transition text-base disabled:opacity-50"
           >
-            Enter Dashboard
+            Sign In
           </button>
         </form>
       </div>
