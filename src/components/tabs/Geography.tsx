@@ -3,7 +3,7 @@ import { ComposableMap, Geographies, Geography as Geo } from 'react-simple-maps'
 import { useGeography } from '../../hooks/useData';
 import { useAppStore } from '../../store';
 
-const INDIA_TOPO = '/data/geography/india-states.json';
+const INDIA_TOPO = `${import.meta.env.BASE_URL}data/geography/india-states.json`;
 
 export default function Geography() {
   const filter = useAppStore((s) => s.filter);

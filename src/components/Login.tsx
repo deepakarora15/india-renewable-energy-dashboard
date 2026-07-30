@@ -23,7 +23,7 @@ export default function Login() {
       <div className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-md animate-fadeIn">
         <div className="text-center mb-8">
           <img
-            src="/icici-lombard-logo.jpg"
+            src={`${import.meta.env.BASE_URL}icici-lombard-logo.jpg`}
             alt="ICICI Lombard"
             className="h-12 mx-auto mb-4 rounded-lg"
           />

@@ -10,7 +10,7 @@ const FILTERS: { label: string; value: EnergyFilter; icon: string }[] = [
 function ICICILogo() {
   return (
     <img
-      src="/icici-lombard-logo.jpg"
+      src={`${import.meta.env.BASE_URL}icici-lombard-logo.jpg`}
       alt="ICICI Lombard General Insurance"
       className="h-11 rounded-lg"
     />

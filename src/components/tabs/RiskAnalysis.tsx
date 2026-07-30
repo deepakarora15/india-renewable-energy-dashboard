@@ -20,7 +20,7 @@ export default function RiskAnalysis() {
   const filter = useAppStore((s) => s.filter);
   const { data: solarRisks } = useSolarRisks() as { data: any };
   const { data: windRisks } = useWindRisks() as { data: any };
-  const { data: caseData } = useQuery({ queryKey: ['caseStudies'], queryFn: async () => { const r = await fetch('/data/risks/case-studies.json'); return r.json(); } }) as { data: any };
+  const { data: caseData } = useQuery({ queryKey: ['caseStudies'], queryFn: async () => { const r = await fetch(`${import.meta.env.BASE_URL}data/risks/case-studies.json`); return r.json(); } }) as { data: any };
   const [subTab, setSubTab] = useState(0);
   const [expandedRisk, setExpandedRisk] = useState<string | null>(null);
 
