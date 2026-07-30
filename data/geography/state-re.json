@@ -1,0 +1,29 @@
+{
+  "states": [
+    { "name": "Rajasthan", "code": "RJ", "solar": 22000, "wind": 9500, "dominant": "solar", "topProject": "Bhadla Solar Park (2,245 MW)", "policyRating": "A+" },
+    { "name": "Gujarat", "code": "GJ", "solar": 15200, "wind": 10800, "dominant": "solar", "topProject": "Khavda Renewable Park", "policyRating": "A+" },
+    { "name": "Karnataka", "code": "KA", "solar": 9800, "wind": 5300, "dominant": "solar", "topProject": "Pavagada Solar Park (2,050 MW)", "policyRating": "A" },
+    { "name": "Tamil Nadu", "code": "TN", "solar": 7200, "wind": 10400, "dominant": "wind", "topProject": "Muppandal Wind Farm", "policyRating": "A" },
+    { "name": "Andhra Pradesh", "code": "AP", "solar": 6500, "wind": 4200, "dominant": "solar", "topProject": "Kurnool Ultra Mega Solar (1,000 MW)", "policyRating": "A" },
+    { "name": "Madhya Pradesh", "code": "MP", "solar": 5800, "wind": 2700, "dominant": "solar", "topProject": "Rewa Solar Park (750 MW)", "policyRating": "B+" },
+    { "name": "Maharashtra", "code": "MH", "solar": 4200, "wind": 5800, "dominant": "wind", "topProject": "Satara Wind Corridor", "policyRating": "B+" },
+    { "name": "Telangana", "code": "TS", "solar": 4500, "wind": 200, "dominant": "solar", "topProject": "Ramagundam Floating Solar (100 MW)", "policyRating": "B+" },
+    { "name": "Kerala", "code": "KL", "solar": 800, "wind": 75, "dominant": "solar", "topProject": "Kayamkulam Solar (92 MW)", "policyRating": "B" },
+    { "name": "Punjab", "code": "PB", "solar": 1800, "wind": 0, "dominant": "solar", "topProject": "Bhatinda Solar Park", "policyRating": "B" },
+    { "name": "Uttar Pradesh", "code": "UP", "solar": 3200, "wind": 0, "dominant": "solar", "topProject": "Mirzapur Solar Park", "policyRating": "B" },
+    { "name": "Haryana", "code": "HR", "solar": 1200, "wind": 0, "dominant": "solar", "topProject": "Rooftop Solar Program", "policyRating": "B" },
+    { "name": "Odisha", "code": "OD", "solar": 800, "wind": 50, "dominant": "solar", "topProject": "NLC Solar Park", "policyRating": "B-" },
+    { "name": "West Bengal", "code": "WB", "solar": 400, "wind": 20, "dominant": "solar", "topProject": "Sundarbans Microgrid", "policyRating": "C+" },
+    { "name": "Bihar", "code": "BR", "solar": 300, "wind": 0, "dominant": "solar", "topProject": "Darbhanga Solar", "policyRating": "C" },
+    { "name": "Jharkhand", "code": "JH", "solar": 250, "wind": 0, "dominant": "solar", "topProject": "NTPC Solar Patratu", "policyRating": "C" },
+    { "name": "Chhattisgarh", "code": "CG", "solar": 600, "wind": 0, "dominant": "solar", "topProject": "Rajnandgaon Solar", "policyRating": "C+" },
+    { "name": "Assam", "code": "AS", "solar": 100, "wind": 0, "dominant": "solar", "topProject": "Amguri Solar", "policyRating": "C" },
+    { "name": "Uttarakhand", "code": "UK", "solar": 500, "wind": 0, "dominant": "solar", "topProject": "Solar Rooftop Scheme", "policyRating": "B-" },
+    { "name": "Himachal Pradesh", "code": "HP", "solar": 200, "wind": 0, "dominant": "solar", "topProject": "Solar Pump Program", "policyRating": "B-" },
+    { "name": "Jammu & Kashmir", "code": "JK", "solar": 300, "wind": 0, "dominant": "solar", "topProject": "Palli Solar Village", "policyRating": "B-" },
+    { "name": "Ladakh", "code": "LA", "solar": 150, "wind": 0, "dominant": "solar", "topProject": "13 GW Solar Plan", "policyRating": "B" },
+    { "name": "Goa", "code": "GA", "solar": 50, "wind": 0, "dominant": "solar", "topProject": "Rooftop Solar Scheme", "policyRating": "C+" }
+  ],
+  "solarBelt": ["Rajasthan", "Gujarat", "Karnataka", "Andhra Pradesh", "Madhya Pradesh", "Tamil Nadu"],
+  "windBelt": ["Tamil Nadu", "Gujarat", "Rajasthan", "Karnataka", "Maharashtra", "Andhra Pradesh"]
+}

@@ -1,0 +1,224 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "India's Solar Capacity Surges 57-Fold to 162.15 GW by June 2026",
+      "source": "Solar",
+      "region": "N",
+      "category": "Policy",
+      "date": "2026-07-22",
+      "summary": "India's installed solar power capacity has grown from 2.82 GW in 2014 to 162.15 GW as of June 30, 2026. Minister of New and Renewable Energy Pralhad Joshi informed Parliament about this milestone under the National Solar Mission.",
+      "url": "https://energy.economictimes.indiatimes.com/news/renewable/indias-solar-capacity-surges-57-fold-to-16215-gw-by-2026/132553478",
+      "publisher": "ET EnergyWorld"
+    },
+    {
+      "id": 2,
+      "title": "India Deploys Record 37.9 GW of Solar in Calendar Year 2025",
+      "source": "Solar",
+      "region": "N",
+      "category": "Business",
+      "date": "2026-01-14",
+      "summary": "India added a record 37.9 GW of solar capacity in calendar year 2025 (Jan-Dec), marking its highest ever annual additions. Solar installations increased by 54.7% compared to CY2024.",
+      "url": "https://www.pv-magazine.com/2026/01/14/india-deploys-37-9-gw-of-solar-in-2025/",
+      "publisher": "PV Magazine"
+    },
+    {
+      "id": 3,
+      "title": "Adani Green Energy Delivers Record 5 GW Capacity Addition in FY26",
+      "source": "Solar",
+      "region": "W",
+      "category": "Business",
+      "date": "2026-04-24",
+      "summary": "AGEL added 5.1 GW in FY26 (3.4 GW solar, 0.7 GW wind, 1 GW hybrid), taking operational portfolio to 19.3 GW. Revenue from power supply grew 22% YoY to ₹11,602 crore with 91% EBITDA margin.",
+      "url": "https://www.adanigreenenergy.com/newsroom/media-releases/adani-green-energy-delivers-highest-ever-greenfield-annual-capacity",
+      "publisher": "Adani Green Energy"
+    },
+    {
+      "id": 4,
+      "title": "India's Renewable Energy Capacity Reaches 288.58 GW as of June 2026",
+      "source": "Solar",
+      "region": "N",
+      "category": "Policy",
+      "date": "2026-07-22",
+      "summary": "India's installed renewable energy capacity has nearly quadrupled from 76.38 GW in 2014 to 288.58 GW as of June 30, 2026, while total non-fossil fuel capacity reached 297.36 GW, as informed in Rajya Sabha.",
+      "url": "https://www.energetica-india.net/news/india-renewable-energy-capacity-reaches-288-58-gw-as-of-june-2026-shripad-yesso-naik",
+      "publisher": "Energetica India"
+    },
+    {
+      "id": 5,
+      "title": "Record Solar and Wind Surge Drives 3.3% Drop in India's Fossil Generation",
+      "source": "Solar",
+      "region": "N",
+      "category": "Technology",
+      "date": "2026-04-27",
+      "summary": "Solar and wind both set new records in 2025, rising by 53 TWh (+37%) and 22 TWh (+28%) respectively. Renewable generation increase was twice the demand growth, reducing fossil dependency.",
+      "url": "https://www.pv-magazine.com/2026/04/27/record-solar-wind-surge-drives-3-3-drop-in-indias-fossil-generation-in-2025/",
+      "publisher": "PV Magazine"
+    },
+    {
+      "id": 6,
+      "title": "Suzlon Bags 201.6 MW Wind Power Project From Waaree Forever Energies",
+      "source": "Wind",
+      "region": "W",
+      "category": "Business",
+      "date": "2026-07-27",
+      "summary": "Suzlon Energy secured a 201.6 MW wind energy project from Waaree Forever Energies. The project will install 64 units of Suzlon's flagship S144 wind turbine generators (3.15 MW each) in Andhra Pradesh.",
+      "url": "https://www.businessworld.in/article/suzlon-bags-201-6-mw-wind-power-project-from-waaree-forever-energies-616236",
+      "publisher": "Business World"
+    },
+    {
+      "id": 7,
+      "title": "Waaree Renewable Secures 800 MW Solar EPC Contracts",
+      "source": "Solar",
+      "region": "W",
+      "category": "Business",
+      "date": "2026-07-26",
+      "summary": "Waaree Renewable Technologies secured two EPC contracts for ground-mounted solar PV projects with a combined capacity of 800 MWac (1,082 MWp), to be completed by FY28.",
+      "url": "https://energy.economictimes.indiatimes.com/news/renewable/waaree-renewable-wins-orders-for-800-mw-ground-mounted-solar-projects/132651196",
+      "publisher": "ET EnergyWorld"
+    },
+    {
+      "id": 8,
+      "title": "PM Surya Ghar Crosses 39.38 Lakh Rooftop Solar Installations",
+      "source": "Solar",
+      "region": "N",
+      "category": "Policy",
+      "date": "2026-07-20",
+      "summary": "MNRE's flagship PM Surya Ghar scheme has achieved 39.38 lakh rooftop solar installations with a cumulative capacity of about 14.07 GW, bringing affordable solar power to millions of Indian households.",
+      "url": "https://www.energetica-india.net/news/pm-surya-ghar-crosses-39-38-lakh-rooftop-solar-installations-capacity-reaches-14-07-gw",
+      "publisher": "Energetica India"
+    },
+    {
+      "id": 9,
+      "title": "India's Renewable Power Hits Record in 2025, Cuts Fossil Fuel Generation",
+      "source": "Wind",
+      "region": "N",
+      "category": "Technology",
+      "date": "2026-06-20",
+      "summary": "India recorded a sharp rise in renewable electricity generation in 2025, helping reduce fossil fuel-based power output for only the third time since 2000, according to energy think-tank Ember.",
+      "url": "https://energy.economictimes.indiatimes.com/news/renewable/indias-renewable-power-hits-record-in-2025-cuts-fossil-fuel-generation-ember/130299225",
+      "publisher": "ET EnergyWorld"
+    },
+    {
+      "id": 10,
+      "title": "India Generated Record Solar and Wind Power in First Half of 2025",
+      "source": "Solar",
+      "region": "N",
+      "category": "Technology",
+      "date": "2025-10-08",
+      "summary": "India produced more solar and wind power than ever before in H1 2025, cutting power sector emissions by 24 million tonnes compared to the same period last year, per Ember report.",
+      "url": "https://energy.economictimes.indiatimes.com/news/renewable/indias-record-solar-and-wind-power-generation-in-first-half-of-2025/124375050",
+      "publisher": "ET EnergyWorld"
+    },
+    {
+      "id": 11,
+      "title": "India's 2025 RE Sector Review: 40 GW Added, Grid Constraints Persist",
+      "source": "Wind",
+      "region": "N",
+      "category": "Policy",
+      "date": "2026-01-05",
+      "summary": "India added more than 40 GW of solar and wind capacity in 2025. However, grid constraints, power contracting delays, and supply chain risks continued to affect project execution.",
+      "url": "https://www.pv-magazine.com/2026/01/05/indias-2025-renewable-energy-sector-review-capacity-growth-and-constraints/",
+      "publisher": "PV Magazine"
+    },
+    {
+      "id": 12,
+      "title": "Record 44.5 GW Renewable Capacity Added in 2025, Non-Fossil at 262.74 GW",
+      "source": "Solar",
+      "region": "N",
+      "category": "Policy",
+      "date": "2025-12-27",
+      "summary": "India crossed the 250 GW non-fossil capacity milestone in August 2025 and achieved its highest-ever renewable share in electricity generation — 51.5% of total demand on July 29, 2025.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-clean-energy-push-record-44-5-gw-renewable-capacity-added-in-2025-says-government-non-fossil-capacity-at-262-74-gw/articleshow/126235116.cms",
+      "publisher": "Times of India"
+    },
+    {
+      "id": 13,
+      "title": "Adani Green Q1 FY27 Profit Rises 20% as Capacity Crosses 20 GW",
+      "source": "Solar",
+      "region": "W",
+      "category": "Business",
+      "date": "2026-07-21",
+      "summary": "Adani Green Energy's Q1 FY27 profit rose by nearly a fifth, driven by operational clean energy capacity crossing 20 GW, even amid power evacuation capacity constraints.",
+      "url": "https://www.livemint.com/companies/company-results/adani-green-q1-profit-rises-about-20-as-clean-energy-capacity-crosses-20-gw-11784728978801.html",
+      "publisher": "LiveMint"
+    },
+    {
+      "id": 14,
+      "title": "Adani Enters Wind Turbine Manufacturing, Tests Suzlon's Market Position",
+      "source": "Wind",
+      "region": "W",
+      "category": "Business",
+      "date": "2025-12-17",
+      "summary": "Adani group's entry into wind turbine manufacturing challenges Suzlon's hard-won calm in the Indian wind market. Suzlon is now debt-free and profitable, benefiting from renewed policy push for wind energy.",
+      "url": "https://livemint.com/companies/suzlon-versus-adani-wind-energy-turbine-market-india-11765969669072.html",
+      "publisher": "LiveMint"
+    },
+    {
+      "id": 15,
+      "title": "SECI Issues 500 MW Offshore Wind Tender for Gujarat Coast",
+      "source": "Wind",
+      "region": "W",
+      "category": "Policy",
+      "date": "2026-03-15",
+      "summary": "SECI released the Request for Selection for India's first 500 MW ISTS-connected offshore wind power project off the Gujarat coast, a landmark step toward India's 30 GW offshore wind target.",
+      "url": "https://seci.co.in/wind",
+      "publisher": "SECI"
+    },
+    {
+      "id": 16,
+      "title": "India Installs 288.58 GW RE Capacity By June 2026, Solar Leads Growth",
+      "source": "Solar",
+      "region": "N",
+      "category": "Business",
+      "date": "2026-07-24",
+      "summary": "India's installed renewable energy capacity has nearly quadrupled over 12 years, rising from 76.38 GW in 2014 to 288.58 GW as of June 2026, with solar leading the expansion.",
+      "url": "https://www.businessworld.in/article/india-installs-288-58-gw-renewable-energy-capacity-by-june-2026-solar-leads-growth-615957",
+      "publisher": "Business World"
+    },
+    {
+      "id": 17,
+      "title": "Waaree Renewable Tech Doubles FY26 Revenue and Profit on Strong Solar Demand",
+      "source": "Solar",
+      "region": "W",
+      "category": "Business",
+      "date": "2026-07-10",
+      "summary": "Waaree Renewable Technologies reported both revenue and profitability more than doubling year-on-year for FY26, supported by strong execution and sector momentum in India's solar EPC market.",
+      "url": "https://www.businessworld.in/article/waaree-renewable-tech-doubles-fy26-revenue-profit-on-strong-solar-demand-602678",
+      "publisher": "Business World"
+    },
+    {
+      "id": 18,
+      "title": "Suzlon Q1 FY27: Revenue Climbs 23% on Strong Wind Order Pipeline",
+      "source": "Wind",
+      "region": "W",
+      "category": "Business",
+      "date": "2026-07-25",
+      "summary": "Suzlon Energy reported 23% revenue growth in Q1 FY27. India's wind capacity is projected to grow from 57 GW in 2026 to 400 GW by 2047 according to industry projections.",
+      "url": "https://in.investing.com/news/company-news/suzlon-q1-fy27-presentation-revenue-climbs-23-but-margins-lag-93CH-5517614",
+      "publisher": "Investing.com"
+    },
+    {
+      "id": 19,
+      "title": "Waaree Energy Storage Commences 5.15 GWh BESS Container Manufacturing",
+      "source": "Solar",
+      "region": "W",
+      "category": "Technology",
+      "date": "2026-07-20",
+      "summary": "Waaree Energy Storage Solutions commenced operations at its 5.15 GWh battery energy storage system container manufacturing facility, supporting India's growing solar+storage project pipeline.",
+      "url": "https://upstox.com/news/market-news/stocks/suzlon-energy-waaree-energies-ntpc-green-adani-green-how-renewable-energy-stocks-are-performing-on-july-28/article-197672/",
+      "publisher": "Upstox"
+    },
+    {
+      "id": 20,
+      "title": "Record High Renewable Generation in 2025 Drives Down Fossil Power: Ember Report",
+      "source": "Wind",
+      "region": "N",
+      "category": "Technology",
+      "date": "2026-06-19",
+      "summary": "India's renewable generation from solar, wind, hydro and bioenergy saw a record increase of 98 TWh in 2025, double the previous high of 49 TWh in 2022, per Ember's new Global Electricity Review.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/record-high-renewable-generation-in-2025-drives-down-fossil-power-in-india-ember-new-report/articleshow/130423568.cms",
+      "publisher": "Times of India"
+    }
+  ]
+}

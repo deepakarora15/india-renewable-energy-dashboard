@@ -1,0 +1,33 @@
+{
+  "insurableRisks": {
+    "aogPerils": [
+      { "id": "SR1", "peril": "Hailstorm", "probability": "Medium", "impact": "High", "emv": 45, "unit": "₹ Cr", "mitigation": "Hail-resistant modules (IEC 61215), trackers to tilt position", "details": "Large hailstones (>25mm) cause micro-cracks and cell fractures in modules" },
+      { "id": "SR2", "peril": "Flood", "probability": "Medium", "impact": "High", "emv": 35, "unit": "₹ Cr", "mitigation": "Elevated mounting structures, proper drainage, site selection above HFL", "details": "Ground-mount inverters and transformers vulnerable to water damage" },
+      { "id": "SR3", "peril": "Lightning", "probability": "High", "impact": "Medium", "emv": 28, "unit": "₹ Cr", "mitigation": "SPD installation, proper earthing, lightning protection system (LPS)", "details": "Surge damage to inverters, monitoring systems, and module junction boxes" },
+      { "id": "SR4", "peril": "Cyclone", "probability": "Low", "impact": "Very High", "emv": 55, "unit": "₹ Cr", "mitigation": "Wind-rated structures (>180 km/h), module clamp reinforcement", "details": "Coastal projects in AP/TN/Odisha face cyclone risk; structural failure of mounting" }
+    ],
+    "nonAogPerils": [
+      { "id": "SR5", "peril": "Inverter Failure", "probability": "High", "impact": "Medium", "emv": 22, "unit": "₹ Cr", "mitigation": "Preventive maintenance, spare inventory, remote monitoring", "details": "String/central inverters: IGBT failures, capacitor degradation, fan failures" },
+      { "id": "SR6", "peril": "Panel Hotspot/PID", "probability": "Medium", "impact": "Medium", "emv": 18, "unit": "₹ Cr", "mitigation": "Anti-PID modules, proper grounding, I-V curve testing", "details": "Potential Induced Degradation causes 30-80% power loss in affected modules" },
+      { "id": "SR7", "peril": "Transformer Failure", "probability": "Low", "impact": "High", "emv": 30, "unit": "₹ Cr", "mitigation": "Oil analysis, thermography, protection relays, spare transformer policy", "details": "Pooling transformer failure causes entire block outage; 6-month lead time for replacement" },
+      { "id": "SR8", "peril": "Cable Fault", "probability": "Medium", "impact": "Low", "emv": 8, "unit": "₹ Cr", "mitigation": "Proper cable management, thermal rating compliance, termite-proof conduits", "details": "DC cable fires due to loose connections; rodent/termite damage to underground cables" }
+    ]
+  },
+  "emergingRisks": [
+    { "risk": "BESS Thermal Runaway", "category": "Storage", "severity": "Critical", "description": "Lithium-ion battery systems co-located with solar can experience thermal runaway, cascading cell failures", "insurance": "Standalone BESS Fire Cover, CAR extension" },
+    { "risk": "Bifacial Reflection Issues", "category": "Technology", "severity": "Medium", "description": "Albedo variations and soiling on rear side affecting expected generation gains", "insurance": "Performance warranty gap cover" },
+    { "risk": "Floating Solar Anchor Failure", "category": "Structural", "severity": "High", "description": "Mooring/anchor systems failure in reservoirs due to water level fluctuations", "insurance": "Marine-type cover for floating structures" },
+    { "risk": "Agri-PV Structural Load", "category": "Structural", "severity": "Medium", "description": "Combined agricultural activity beneath elevated solar panels creating unexpected structural loads", "insurance": "Extended EAR cover for agri-voltaic projects" }
+  ],
+  "bestPractices": [
+    { "practice": "Drone Thermal Imaging", "frequency": "Quarterly", "benefit": "Detect hotspots, bypass diodes failure, string faults across large arrays" },
+    { "practice": "I-V Curve Testing", "frequency": "Annual", "benefit": "Identify module degradation, PID, mismatch losses early" },
+    { "practice": "Tracker Maintenance", "frequency": "Monthly", "benefit": "Prevent tracking errors causing 5-15% generation loss" },
+    { "practice": "Hail-Resistant Module Selection", "frequency": "Design phase", "benefit": "Modules tested to 45mm hail at 30 m/s reduce claims by 60%" }
+  ],
+  "caseStudies": [
+    { "title": "Rajasthan Hailstorm — 500 MW Plant", "date": "Feb 2023", "loss": 45, "unit": "₹ Cr", "description": "Massive hailstorm damaged 180,000 modules in Bhadla region. Claim settled under MD policy. Key learning: Module selection and tracker tilt protocols critical.", "learning": "Deploy hail-resistant modules in hail-prone belts; install weather alert systems for auto-tilt" },
+    { "title": "AP Cyclone Damage — 200 MW Solar", "date": "Dec 2022", "loss": 38, "unit": "₹ Cr", "description": "Cyclone Mandous caused structural failure of fixed-tilt mounting in coastal AP. Module tables flew off foundations.", "learning": "Coastal projects need cyclone-rated structures (>200 km/h); anchor bolt torque verification critical" },
+    { "title": "Tamil Nadu Lightning Surge", "date": "Jun 2024", "loss": 28, "unit": "₹ Cr", "description": "Multiple lightning strikes during monsoon damaged 45 string inverters and monitoring systems across 150 MW plant.", "learning": "Comprehensive SPD installation at every distribution board; proper earthing mesh essential" }
+  ]
+}

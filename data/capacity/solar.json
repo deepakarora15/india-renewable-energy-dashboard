@@ -1,0 +1,78 @@
+{
+  "totalCapacity": 90570,
+  "unit": "MW",
+  "asOf": "FY25",
+  "subcategories": {
+    "utilityScale": { "capacity": 67928, "share": 75 },
+    "rooftop": { "capacity": 18114, "share": 20 },
+    "floating": { "capacity": 4528, "share": 5 }
+  },
+  "generation": { "value": 140.4, "unit": "BU" },
+  "cuf": 18.2,
+  "target2030": 280000,
+  "tariffHistory": [
+    { "year": 2010, "tariff": 17.0 },
+    { "year": 2011, "tariff": 14.5 },
+    { "year": 2012, "tariff": 10.0 },
+    { "year": 2013, "tariff": 7.5 },
+    { "year": 2014, "tariff": 6.5 },
+    { "year": 2015, "tariff": 5.5 },
+    { "year": 2016, "tariff": 4.34 },
+    { "year": 2017, "tariff": 2.44 },
+    { "year": 2018, "tariff": 2.36 },
+    { "year": 2019, "tariff": 2.55 },
+    { "year": 2020, "tariff": 2.0 },
+    { "year": 2021, "tariff": 2.14 },
+    { "year": 2022, "tariff": 2.42 },
+    { "year": 2023, "tariff": 2.2 },
+    { "year": 2024, "tariff": 1.99 },
+    { "year": 2025, "tariff": 2.1 }
+  ],
+  "annualAdditions": [
+    { "year": 2014, "added": 0.9 },
+    { "year": 2015, "added": 2.0 },
+    { "year": 2016, "added": 3.0 },
+    { "year": 2017, "added": 5.5 },
+    { "year": 2018, "added": 8.3 },
+    { "year": 2019, "added": 7.5 },
+    { "year": 2020, "added": 3.9 },
+    { "year": 2021, "added": 10.2 },
+    { "year": 2022, "added": 13.0 },
+    { "year": 2023, "added": 15.0 },
+    { "year": 2024, "added": 18.5 },
+    { "year": 2025, "added": 20.0 }
+  ],
+  "technology": [
+    { "name": "Mono-PERC", "share": 55 },
+    { "name": "Bifacial", "share": 25 },
+    { "name": "TOPCon", "share": 12 },
+    { "name": "HJT", "share": 5 },
+    { "name": "Thin Film", "share": 3 }
+  ],
+  "topParks": [
+    { "name": "Bhadla Solar Park", "state": "Rajasthan", "capacity": 2245 },
+    { "name": "Pavagada Solar Park", "state": "Karnataka", "capacity": 2050 },
+    { "name": "Kurnool Ultra Mega", "state": "Andhra Pradesh", "capacity": 1000 },
+    { "name": "NP Kunta", "state": "Andhra Pradesh", "capacity": 978 },
+    { "name": "Rewa Solar Park", "state": "Madhya Pradesh", "capacity": 750 },
+    { "name": "Kadapa Solar Park", "state": "Andhra Pradesh", "capacity": 700 },
+    { "name": "Fatehgarh Solar Park", "state": "Rajasthan", "capacity": 600 },
+    { "name": "Charanka Solar Park", "state": "Gujarat", "capacity": 590 },
+    { "name": "Dholera Solar Park", "state": "Gujarat", "capacity": 500 },
+    { "name": "Ananthapuramu-II", "state": "Andhra Pradesh", "capacity": 500 }
+  ],
+  "challenges": [
+    "Grid curtailment during peak generation hours",
+    "Land acquisition delays in populated areas",
+    "Dust/soiling losses (2-5% annual generation loss)",
+    "Evening ramp-down requires storage backup",
+    "Module degradation in high-temperature zones",
+    "Dependency on imported cells/modules from China (80%+)"
+  ],
+  "performanceMetrics": {
+    "performanceRatio": "78-82%",
+    "degradationRate": "0.5-0.7% per year",
+    "soilingLoss": "2-5% annually",
+    "availabilityTarget": ">99%"
+  }
+}

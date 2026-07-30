@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <defs>
+    <linearGradient id="orangeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#B5380A"/>
+      <stop offset="30%" style="stop-color:#D4520E"/>
+      <stop offset="60%" style="stop-color:#E8700F"/>
+      <stop offset="100%" style="stop-color:#F5A033"/>
+    </linearGradient>
+  </defs>
+  <!-- Orange gradient background with rounded corners -->
+  <rect width="400" height="120" rx="10" ry="10" fill="url(#orangeBg)"/>
+  
+  <!-- Stylized "i" with circle -->
+  <circle cx="52" cy="32" r="8" fill="#FFFFFF"/>
+  <circle cx="52" cy="32" r="5" fill="#8B1A04"/>
+  <ellipse cx="52" cy="55" rx="12" ry="16" fill="#8B1A04" stroke="#FFFFFF" stroke-width="2.5"/>
+  <text x="48" y="62" font-family="Arial, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" font-style="italic">i</text>
+  
+  <!-- ICICI text -->
+  <text x="70" y="68" font-family="Arial Black, Arial, sans-serif" font-size="42" font-weight="900" fill="#FFFFFF" font-style="italic" letter-spacing="-1">ICICI</text>
+  
+  <!-- G circle mark -->
+  <circle cx="222" cy="55" r="16" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+  <text x="215" y="63" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">G</text>
+  
+  <!-- Lombard text -->
+  <text x="244" y="68" font-family="Arial, sans-serif" font-size="38" font-weight="400" fill="#FFFFFF" letter-spacing="0">Lombard</text>
+  
+  <!-- Line decorations -->
+  <line x1="70" y1="90" x2="130" y2="90" stroke="#FFFFFF" stroke-width="1.5"/>
+  <line x1="290" y1="90" x2="350" y2="90" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- GENERAL INSURANCE text -->
+  <text x="200" y="96" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">GENERAL INSURANCE</text>
+</svg>
